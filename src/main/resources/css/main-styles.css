@@ -1,0 +1,41 @@
+/*!textAreas*/
+.text-area {
+    -fx-text-fill: blue;
+    -fx-background-color:  #a2ccde;
+    -fx-background-radius: 20;
+    -fx-border-color: blue;
+    -fx-border-radius: 20;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 16px;
+}
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+/*!registration Button*/
+#registrateButton {
+    -fx-background-color: #5d80ee;
+    -fx-border-color: blue;
+    -fx-border-radius: 22px;
+    -fx-background-radius: 22px;
+}
+/*!vbox with profile photo*/
+#photo{
+    -fx-padding: 40;
+}
+#photo .label{
+    -fx-font-size: 20;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill-color: black;
+}
+#changePhoto {
+    -fx-background-color: #5d80ee;
+    -fx-border-color: blue;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
